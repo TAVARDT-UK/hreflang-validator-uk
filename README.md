@@ -5,7 +5,7 @@
 
 Audits alternate return tags, regional language targeting, and x-default annotations under W3C standards.
 
-Developed and maintained by the international search engineering division of **TAVARDT UK**.
+Developed and maintained by the international search engineering division of **TAVARDT**.
 
 ***
 
@@ -42,13 +42,13 @@ python hreflang_validator.py https://company.co.uk -json
 For full web verification and deep international site crawls:
 
 * **Official Hreflang Checker Tool**
-* **TAVARDT UK Enterprise Portal**
+* **TAVARDT Enterprise Portal**
 
 ***
 
 ## International SEO and Global Search Advisory
 
-For enterprise international architectures aligning with W3C Standards and UK Digital Architecture, contact the specialists at **TAVARDT UK**.
+For enterprise international architectures aligning with W3C Standards and UK Digital Architecture, contact the specialists at **TAVARDT**.
 
 ***
 
