@@ -4,23 +4,26 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Audits alternate return tags, regional language targeting, and x-default annotations under W3C standards.
+Audits alternate return tags, regional language targeting en-GB, and global x-default fallback architecture.
+
+Developed and maintained by the international search architecture and web standards division at **TAVARDT**.
 
 ***
 
 ## International SEO and Hreflang Audit Capabilities
 
-* **Return Tag Reciprocity Verification**: Confirms that every alternate language target contains a reciprocal link pointing back to the evaluated URL.
-* **ISO 639-1 and ISO 3166-1 Code Validation**: Audits language and regional country codes (e.g., `en-GB`, `en-US`, `fr-FR`) against international standards.
-* **x-default Fallback Inspection**: Verifies default target configuration for visitors outside designated regional locales.
-* **Canonical Tag Consistency**: Detects conflicts between canonical URLs and self-referencing hreflang annotations.
-* **International Architecture Score**: Technical score from 0 to 100 with prioritized remediation guidance.
+* **Self-Referencing Annotation Verification**: Confirms every audited URL includes a self-referencing alternate link, avoiding search engine indexing disqualification.
+* **Global x-default Fallback Inspection**: Verifies mandatory x-default routing for international visitors outside targeted geographical regions.
+* **ISO 639-1 and ISO 3166-1 Syntax Validation**: Validates two-letter language and country combinations against international standards to prevent malformed regional targeting.
+* **Canonical Tag Consistency**: Identifies critical conflicts where canonical link headers or tags point away from declared alternate URLs.
+* **Dual-Source Parsing**: Extracts hreflang annotations from both HTML head tags and HTTP Link response headers seamlessly.
+* **International Health Score**: Computes an objective 0 to 100 compliance metric classifying platforms as COMPLIANT, WARNING, or CRITICAL.
 
 ***
 
 ## Installation and Execution
 
-Requires Python 3.8 or higher with no external dependencies required.
+Requires Python 3.8 or higher with zero external packages.
 
 ```bash
 git clone https://github.com/TAVARDT-UK/hreflang-validator-uk.git
@@ -28,17 +31,26 @@ cd hreflang-validator-uk
 python hreflang_validator.py https://company.co.uk
 ```
 
-To output results in structured JSON format:
+To output structured JSON for automated pipelines and quality audits:
 
 ```bash
-python hreflang_validator.py https://company.co.uk -json
+python hreflang_validator.py https://company.co.uk -j
 ```
 
 ***
 
-## International SEO and Global Search Advisory
+## Online Diagnostic Suite
 
-For enterprise international architectures aligning with W3C Standards and UK Digital Architecture, contact the specialists at **TAVARDT**.
+For comprehensive web testing and visual verification of international tags:
+
+* [Hreflang Validator](https://tools.tavardt.com/uk/hreflang-checker/)
+* [Corporate Portal](https://ag.tavardt.com/uk/)
+
+***
+
+## International SEO and Global Architecture Advisory
+
+For multi-market deployments and technical alignment with W3C Internationalisation Standards, consult **TAVARDT**.
 
 ***
 
@@ -51,7 +63,7 @@ For enterprise international architectures aligning with W3C Standards and UK Di
 ***
 
 ### License
-Released under the MIT License.
+Distributed under the MIT License. See the LICENSE file for complete terms.
 
 ***
 
